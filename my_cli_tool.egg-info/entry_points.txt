@@ -1,0 +1,2 @@
+[console_scripts]
+remi-cli = remi_cli:test
