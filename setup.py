@@ -9,6 +9,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        remi-cli=remi_cli:test
+        remi-cli=remi_cli:remi_cli
     ''',
 )
