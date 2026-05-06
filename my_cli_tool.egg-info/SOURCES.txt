@@ -1,3 +1,4 @@
+README.md
 remi_cli.py
 setup.py
 my_cli_tool.egg-info/PKG-INFO
