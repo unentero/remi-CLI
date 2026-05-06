@@ -82,8 +82,8 @@ def review_file(filename):
 
 @click.command()
 @click.argument('filename')
-@click.option('--test', is_flag=True ,default=False)
-@click.option('--review', is_flag=True, default=False)
+@click.option('--test', is_flag=True ,default=False, help='test your knowledge in the questions of the file')
+@click.option('--review', is_flag=True, default=False, help='review the questions of the file')
 def remi_cli(filename,test,review):
     if review:
         review_file(filename)
